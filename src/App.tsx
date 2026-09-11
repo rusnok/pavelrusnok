@@ -152,7 +152,6 @@ function App() {
 
             <div className="hero-side">
               <div className="hero-portrait-wrap">
-                <div className="portrait-ring" aria-hidden="true" />
                 <img
                   src={`${import.meta.env.BASE_URL}portrait.jpg`}
                   alt="Pavel Rusnok"
@@ -186,22 +185,6 @@ function App() {
                   <li>Hands-on implementation with Python, cloud and modern tooling</li>
                 </ul>
               </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="tech-strip" aria-label="Technologies">
-          <div className="container tech-strip-inner">
-            <span className="tech-label">Stack</span>
-            <div className="tech-chips">
-              <span className="tech-chip">Python</span>
-              <span className="tech-chip">ML / Deep Learning</span>
-              <span className="tech-chip">GenAI / Agents</span>
-              <span className="tech-chip">Computer Vision</span>
-              <span className="tech-chip">MLOps</span>
-              <span className="tech-chip">Databricks</span>
-              <span className="tech-chip">Cloud</span>
-              <span className="tech-chip">TensorFlow</span>
             </div>
           </div>
         </section>
