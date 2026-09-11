@@ -12,11 +12,11 @@ function App() {
             Pavel<span>Rusnok</span>
           </a>
 
-          <nav className={`nav ${menuOpen ? 'open' : ''`}>
+          <nav className={menuOpen ? 'nav open' : 'nav'}>
             <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
             <a href="#services" onClick={() => setMenuOpen(false)}>Services</a>
             <a href="#contact" className="nav-cta" onClick={() => setMenuOpen(false)}>
-              Let's talk
+              Let us talk
             </a>
           </nav>
 
@@ -38,7 +38,7 @@ function App() {
             <div>
               <div className="hero-badge">AI / ML · Coaching · Consulting</div>
               <h1>
-                Turning data & AI into <em>measurable results</em>
+                Turning data and AI into <em>measurable results</em>
               </h1>
               <p className="hero-lead">
                 I help companies and ambitious professionals design, build and
@@ -56,7 +56,7 @@ function App() {
               <div className="hero-stats">
                 <div className="stat">
                   <strong>15+</strong>
-                  <span>years in data & AI</span>
+                  <span>years in data and AI</span>
                 </div>
                 <div className="stat">
                   <strong>PhD</strong>
@@ -74,8 +74,8 @@ function App() {
               <ul>
                 <li>Designing and delivering production AI/ML systems</li>
                 <li>Coaching data/AI teams and individual practitioners</li>
-                <li>Strategic consulting on AI adoption & roadmap</li>
-                <li>Hands-on implementation with Python, cloud & modern tooling</li>
+                <li>Strategic consulting on AI adoption and roadmap</li>
+                <li>Hands-on implementation with Python, cloud and modern tooling</li>
               </ul>
             </div>
           </div>
@@ -95,7 +95,7 @@ function App() {
             <div className="about-grid">
               <div className="about-text">
                 <p>
-                  I'm <strong>Pavel Rusnok</strong> — senior AI/ML engineer,
+                  I am <strong>Pavel Rusnok</strong> — senior AI/ML engineer,
                   data scientist and educator based in the Czech Republic.
                 </p>
                 <p>
@@ -105,7 +105,7 @@ function App() {
                   that replace manual effort and create measurable business value.
                 </p>
                 <p>
-                  I hold a PhD in Applied Mathematics & Fuzzy Modeling and
+                  I hold a PhD in Applied Mathematics and Fuzzy Modeling and
                   regularly teach data science and machine learning courses. My
                   focus is always the same: solutions that actually ship and
                   create value.
@@ -128,7 +128,7 @@ function App() {
                   </div>
                 </div>
                 <div className="highlight">
-                  <div className="highlight-icon">Φ</div>
+                  <div className="highlight-icon">PhD</div>
                   <div>
                     <h4>Research foundation</h4>
                     <p>PhD thesis on fuzzy associational analysis in data mining. Strong mathematical grounding.</p>
@@ -152,56 +152,56 @@ function App() {
 
             <div className="services-grid">
               <article className="service-card">
-                <div className="service-icon">◎</div>
+                <div className="service-icon">1</div>
                 <h3>Coaching</h3>
                 <p>
                   1:1 or small-group coaching for data scientists, ML engineers
                   and technical leads who want to level up faster.
                 </p>
                 <ul className="service-list">
-                  <li>Career & skill roadmap design</li>
-                  <li>Code & system design reviews</li>
-                  <li>Interview & leadership preparation</li>
+                  <li>Career and skill roadmap design</li>
+                  <li>Code and system design reviews</li>
+                  <li>Interview and leadership preparation</li>
                   <li>Building production-ready habits</li>
                 </ul>
                 <a href="#contact" className="service-cta">
-                  Discuss coaching →
+                  Discuss coaching
                 </a>
               </article>
 
               <article className="service-card">
-                <div className="service-icon">◇</div>
+                <div className="service-icon">2</div>
                 <h3>Consulting</h3>
                 <p>
                   Strategic and technical guidance for organisations starting or
                   scaling their AI / data initiatives.
                 </p>
                 <ul className="service-list">
-                  <li>AI readiness & opportunity assessment</li>
-                  <li>Architecture & tooling recommendations</li>
-                  <li>Team structure & hiring advice</li>
-                  <li>Roadmap & prioritisation workshops</li>
+                  <li>AI readiness and opportunity assessment</li>
+                  <li>Architecture and tooling recommendations</li>
+                  <li>Team structure and hiring advice</li>
+                  <li>Roadmap and prioritisation workshops</li>
                 </ul>
                 <a href="#contact" className="service-cta">
-                  Discuss consulting →
+                  Discuss consulting
                 </a>
               </article>
 
               <article className="service-card">
-                <div className="service-icon">⚡</div>
+                <div className="service-icon">3</div>
                 <h3>AI / ML Solutions</h3>
                 <p>
                   Hands-on delivery of end-to-end AI and machine learning
                   systems that solve concrete business problems.
                 </p>
                 <ul className="service-list">
-                  <li>Custom ML models & GenAI agents</li>
-                  <li>Data pipelines & MLOps foundations</li>
-                  <li>Computer vision & signal processing</li>
+                  <li>Custom ML models and GenAI agents</li>
+                  <li>Data pipelines and MLOps foundations</li>
+                  <li>Computer vision and signal processing</li>
                   <li>Integration with existing systems</li>
                 </ul>
                 <a href="#contact" className="service-cta">
-                  Discuss a project →
+                  Discuss a project
                 </a>
               </article>
             </div>
@@ -212,7 +212,7 @@ function App() {
           <div className="container">
             <h2>Ready to explore a collaboration?</h2>
             <p>
-              Tell me about your challenge or goal. I'll reply within two
+              Tell me about your challenge or goal. I will reply within two
               working days with honest feedback and next steps.
             </p>
             <a
