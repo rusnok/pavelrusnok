@@ -12,7 +12,7 @@ function App() {
             Pavel<span>Rusnok</span>
           </a>
 
-          <nav className={`nav ${menuOpen ? 'open' : ''}`}>
+          <nav className={`nav ${menuOpen ? 'open' : ''`}>
             <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
             <a href="#services" onClick={() => setMenuOpen(false)}>Services</a>
             <a href="#contact" className="nav-cta" onClick={() => setMenuOpen(false)}>
@@ -64,7 +64,7 @@ function App() {
                 </div>
                 <div className="stat">
                   <strong>Banking · Industry</strong>
-                  <span>Barclays · Siemens</span>
+                  <span>Production AI systems</span>
                 </div>
               </div>
             </div>
@@ -99,12 +99,10 @@ function App() {
                   data scientist and educator based in the Czech Republic.
                 </p>
                 <p>
-                  Currently I work as a Senior AI/ML Model Infrastructure
-                  Engineer at <strong>Barclays</strong>, where I build
-                  multi-agent GenAI systems and production rule engines that
-                  replace manual work. Previously I was a Senior Data Scientist
-                  at <strong>Siemens</strong>, delivering computer vision,
-                  signal processing and operational analytics projects.
+                  I design and deliver production AI/ML systems — from multi-agent
+                  GenAI solutions and rule engines to computer vision, signal
+                  processing and operational analytics. My work focuses on systems
+                  that replace manual effort and create measurable business value.
                 </p>
                 <p>
                   I hold a PhD in Applied Mathematics & Fuzzy Modeling and
