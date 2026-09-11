@@ -72,7 +72,7 @@ function App() {
             <div className="hero-side">
               <div className="hero-portrait-wrap">
                 <img
-                  src="https://avatars.githubusercontent.com/u/8817877?v=4"
+                  src={`${import.meta.env.BASE_URL}portrait.jpg`}
                   alt="Pavel Rusnok"
                   className="hero-portrait"
                   width={200}
