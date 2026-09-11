@@ -63,7 +63,7 @@ function App() {
                   <span>Applied Mathematics</span>
                 </div>
                 <div className="stat">
-                  <strong>Banking · Industry</strong>
+                  <strong>Marketing Research · Banking · Industry</strong>
                   <span>Production AI systems</span>
                 </div>
               </div>
